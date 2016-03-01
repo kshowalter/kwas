@@ -1,0 +1,22 @@
+{
+  "name": "",
+  "version": "0.0.0",
+  "author": "",
+  "dependencies": {
+    "express": "^4.6.1"
+  },
+  "devDependencies": {
+    "webpack": "latest",
+    "nodemon": "latest",
+    "webpack-dev-server": "latest",
+    "babel": "latest",
+    "babel-loader": "latest",
+    "babel-preset-es2015": "latest",
+    "babel-preset-react": "latest",
+    "babel-eslint": "latest",
+    "eslint": "latest",
+    "eslint-plugin-react": "latest"
+
+  },
+  "main": "server/server.js"
+}
