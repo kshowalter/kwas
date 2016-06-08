@@ -1,22 +1,25 @@
 {
   "name": "",
   "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack-dev-server --content-base public/ --inline --hot -d"
+  },
   "author": "",
+  "license": "BSD-2-Clause",
   "dependencies": {
-    "express": "^4.6.1"
+    "lodash": "^4.11.2",
+    "redux": "~3.5.2"
   },
   "devDependencies": {
-    "webpack": "latest",
-    "nodemon": "latest",
-    "webpack-dev-server": "latest",
-    "babel": "latest",
-    "babel-loader": "latest",
-    "babel-preset-es2015": "latest",
-    "babel-preset-react": "latest",
     "babel-eslint": "latest",
     "eslint": "latest",
     "eslint-plugin-react": "latest"
-
+    "babel-core": "~6.8.0",
+    "babel-loader": "~6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "webpack": "~1.13.0",
+    "webpack-dev-server": "~1.14.1"
   },
-  "main": "server/server.js"
 }

@@ -29,8 +29,6 @@
   "globals": {
     "$": true,
     "_": true,
-    "moment": true,
-    "g": true
   }
 
 }
